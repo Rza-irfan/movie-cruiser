@@ -1,0 +1,72 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the movie and favourites sections */
+h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* Style for the card component */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    transition: transform 0.2s;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for card images */
+.card-img-top {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+/* Add padding to card body */
+.card-body {
+    padding: 1.25rem;
+}
+
+/* Style for buttons inside cards */
+.card-body .btn {
+    margin-top: 10px;
+}
+
+/* Style for list items */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+/* Custom button styles */
+.add-favourite-btn,
+.remove-favourite-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.add-favourite-btn:hover,
+.remove-favourite-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style for text-muted elements */
+.text-muted {
+    color: #6c757d;
+}
